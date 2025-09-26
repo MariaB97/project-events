@@ -1,0 +1,15 @@
+# Ignorar carpetas de dependencias
+/client/node_modules
+/server/node_modules
+
+# Ignorar archivos de entorno (¡Contienen tus contraseñas!)
+/.env
+/server/.env
+
+# Ignorar archivos de compilación de React/Vite
+/client/dist
+/client/build
+
+# Ignorar logs, cachés y archivos temporales
+*.log
+.DS_Store
